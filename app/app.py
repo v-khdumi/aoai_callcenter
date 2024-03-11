@@ -19,6 +19,7 @@ SPEECH_SERVICE_REGION = os.environ.get('SPEECH_API_REGION') or "eastus"
 
 # Define the supported languages and their language codes. You can add more languages here if needed  
 languages = {  
+    "Romana": "ro-RO",
     "English": "en-US",  
     "Spanish": "es-ES",  
     "Portuguese": "pt-BR" 
@@ -26,6 +27,7 @@ languages = {
 
 #Define the voices for synthesizing the responses. You can add/customize voices here if needed
 voices = {  
+    "Romanian": "ro-RO-AlinaNeural",
     "English": "en-US-JessaNeural",  
     "Spanish": "es-ES-AlvaroNeural",  
     "Portuguese": "pt-BR-AntonioNeural" 
